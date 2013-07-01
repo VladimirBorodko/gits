@@ -29,18 +29,18 @@ If you do develop a new feature in a branch, if master is the main line of devel
 
 **Why?** decrease risk of merge conflicts
 
-## Workflows
+## Work-flows
 
 ### Stick with a central repository and have each contributor work in it
 
-- Git provides for crazy complexity in repository workflows, stay away from these initially and probably for most internal development purposes
+- Git provides for crazy complexity in repository work-flows, stay away from these initially and probably for most internal development purposes
 - Have one central repository everyone pulls from and pushes to.  
 - Public projects with many contributors and perhaps a team of maintainers often need more than a central repository. This is where GitHub pull requests come into play.
-- Some teams setup advanced workflows for approval processes, in my opinion this is best handled outside version control
+- Some teams setup advanced work-flows for approval processes, in my opinion this is best handled outside version control
 	- Deployment processes can control who performs them
 	- Preventing mistakes in the central repository from new contributors is better left as an education opportunity, a chance to enhance team collaboration instead of adding overhead to approve every change ever.
 	 
-**Why?** this central model provides for most needs of a small development team, advanced workflows add significant overhead.
+**Why?** this central model provides for most needs of a small development team, advanced work-flows add significant overhead.
 
 ### Integrate frequently 
 
@@ -72,6 +72,8 @@ There are some advanced things that may be hard to do with a particular GUI. Don
 
 ## Commits
 
+Most of these come from my post [Things I've noticed with DVCS](http://devblog.wesmcclure.com/posts/things-ive-noticed-with-dvcs), read it to double re-enforce these ideas :)
+
 ### Commit frequently, locally
 
 Your local environment is yours, commit when you are confident a set of changes are complete, even if it's only partial to the full commit. You can always amend the commit as you build up more of the commit. I mention committing around business value, but locally you can do whatever you want as you can repackage those commits before you push them remotely.
@@ -97,6 +99,10 @@ Merges can break things (there may be no conflict in merging the text, but the c
 Make sure you review your changes before you commit. Find the things you didn't intend to commit, or the things that aren't quite done.
 
 **Why?** reduces cruft that builds from committing unnecessary code, good chance to review and see if you are done, sometimes something will stand out and you can fix it
+
+### Adopt what you like from my Commit Review post
+
+[Commit Review Questions](http://devblog.wesmcclure.com/posts/commit-review-questions)
 
 ### Leave meaningful commit messages
 
@@ -134,7 +140,7 @@ Sometimes code doesn't match a project's coding style. If you do major cleanup o
 
 ### Try not to commit binary formats
 
-Git really can't version these very well, they are ok if they don't change very often. If they change often though, repository sizes can grow very large. An example would be build artifacts, try not to commit these. A good continuous integration server will verify the build process and provide artifacts for deployment.
+Git really can't version these very well, they aren't as big of a problem if they don't change very often. If they change often though, repository sizes can grow very large. An example would be build artifacts, try not to commit these. A good continuous integration server will verify the build process and provide artifacts for deployment.
 
 Another example, don't commit a test database, yes it's been done before!
 
