@@ -1,0 +1,22 @@
+- [http://git-scm.com/](http://git-scm.com/)
+	- [Download Git](http://git-scm.com/downloads)
+		- download the latest git tools for any OS 
+	- [Pro Git](http://git-scm.com/book)
+		- fantastic free book, very incremental walk-through, including advanced concepts too
+	- [GUIs](http://git-scm.com/downloads/guis)
+		- List of popular GUIs 
+- ipsum generators
+	- [generate any number of paragraphs of text](http://www.lipsum.com/feed/html)
+	- [Html ipsum snippets](http://html-ipsum.com/)
+- Generating ssh keys
+	- [https://help.github.com/articles/generating-ssh-keys](https://help.github.com/articles/generating-ssh-keys)
+- More resources
+	- [GitHub Training Resources](http://training.github.com/resources/videos/)
+	- [http://gitready.com/](http://gitready.com/)
+		- Great little articles on different use cases you may run into
+	- [http://cheat.errtheblog.com/s/git](http://cheat.errtheblog.com/s/git)
+		- Great cheat sheet of CLI commands that are pretty common
+	- [Git Reference](http://gitref.org)
+- Clone repositories
+	- gits
+		- git@github.com:g0t4/gits.git
