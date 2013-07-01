@@ -17,6 +17,8 @@
 	- [http://cheat.errtheblog.com/s/git](http://cheat.errtheblog.com/s/git)
 		- Great cheat sheet of CLI commands that are pretty common
 	- [Git Reference](http://gitref.org)
+	- Git data flow generalization
+		- [http://commons.wikimedia.org/wiki/File:Git_data_flow_simplified.svg](http://commons.wikimedia.org/wiki/File:Git_data_flow_simplified.svg) 
 - Clone repositories
 	- gits
 		- git@github.com:g0t4/gits.git
