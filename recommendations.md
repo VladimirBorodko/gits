@@ -72,7 +72,7 @@ There are some advanced things that may be hard to do with a particular GUI. Don
 
 ## Commits
 
-Most of these come from my post [Things I've noticed with DVCS](http://devblog.wesmcclure.com/posts/things-ive-noticed-with-dvcs), read it to double re-enforce these ideas :)
+Most of these come from my past posts [Things I've noticed with DVCS](http://devblog.wesmcclure.com/posts/things-ive-noticed-with-dvcs), [How I do VCS](http://devblog.wesmcclure.com/posts/how-i-do-vcs) read them to re-enforce these ideas :), however I'm strongly opinionated in them so please don't take offense!
 
 ### Commit frequently, locally
 
@@ -165,3 +165,9 @@ In my opinion the use cases for a merge are
 If you are just working locally and you want to integrate with the central master branch, use a rebase.
 
 **Why?** merge commits can have changes and often people will over look them (assuming they were automatic), also they add overhead to reading the log.
+
+### Don't commit commented out code
+
+We have history for this!
+
+**Why?** unused code leads to confusing code
