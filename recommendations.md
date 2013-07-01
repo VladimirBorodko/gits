@@ -72,6 +72,20 @@ There are some advanced things that may be hard to do with a particular GUI. Don
 
 ## Commits
 
+### Commit frequently, locally
+
+Your local environment is yours, commit when you are confident a set of changes are complete, even if it's only partial to the full commit. You can always amend the commit as you build up more of the commit. I mention committing around business value, but locally you can do whatever you want as you can repackage those commits before you push them remotely.
+
+Commit many times locally, per day.
+
+**Why?** If anything goes wrong you can abandon the last 15 minutes of work instead of the last day! Do more exploratory changes without worrying about what to "undo".
+
+### Use the outstanding changes as a guide
+
+Build up confidence in the work you are doing by reviewing the outstanding changes to see where you left off. If you get interrupted with a meeting or phone call, study the outstanding changes before you get back into your work. Use it as a crutch! This is especially effective with frequent local commits.
+
+**Why?** Have more confidence in where you left off.
+
 ### Check build/test after merges
 
 Merges can break things (there may be no conflict in merging the text, but the code may not compile!), run the build after a merge, before you push!
