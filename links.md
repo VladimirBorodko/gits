@@ -23,3 +23,11 @@
 	- gits
 		- git@github.com:g0t4/gits.git
 - [SmartGitHg](http://www.syntevo.com/smartgithg/download)
+- SeeGit
+	- [Phil's version](https://github.com/Haacked/SeeGit)
+	- [My version](https://github.com/g0t4/SeeGit)
+- Standard .gitignores
+	- [Entire list](https://github.com/github/gitignore)
+	- [Visual Studio specific](https://github.com/github/gitignore/blob/master/VisualStudio.gitignore)
+	- Pull the visual studio version and have a conversation with the team about what you want to ignore.
+	- Commit the version you copy and then make commits to explain your changes.
