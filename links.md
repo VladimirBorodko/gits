@@ -22,3 +22,4 @@
 - Clone repositories
 	- gits
 		- git@github.com:g0t4/gits.git
+- [SmartGitHg](http://www.syntevo.com/smartgithg/download)
